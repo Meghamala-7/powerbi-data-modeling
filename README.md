@@ -18,3 +18,37 @@ Through data exploration, cleaning, transformation, and modeling, I consolidated
 - Power Query
 - Data Modeling
 - Star Schema
+
+## Data Model
+
+The original dataset contained 23 source tables. After exploring, cleaning, transforming, and restructuring the data, I consolidated them into 14 structured tables.
+
+### Final Model
+
+#### Dimension Tables
+- `dim_customers`
+- `dim_products`
+- `dim_campaign`
+- `dim_geo`
+- `dim_order_flags`
+- `dim_table`
+
+#### Fact Tables
+- `fact_sales`
+- `fact_sales_target`
+- `fact_campaign_spend`
+- `fact_inventory`
+- `fact_promotion_coverage`
+- `fact_order_process`
+
+#### Supporting Tables
+- `security`
+- `_measures`
+
+### Transformation
+
+**23 Source Tables → Power Query Transformations → 14 Structured Tables → Star Schema**
+
+## Final Data Model
+
+![Final Star Schema](Screenshots/final-star-schema.png)
