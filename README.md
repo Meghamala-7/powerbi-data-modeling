@@ -49,6 +49,4 @@ The original dataset contained 23 source tables. After exploring, cleaning, tran
 
 **23 Source Tables → Power Query Transformations → 14 Structured Tables → Star Schema**
 
-## Final Data Model
 
-![Final Star Schema](Screenshots/final-star-schema.png)
