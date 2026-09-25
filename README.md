@@ -136,3 +136,13 @@ The original dataset contained 23 source tables. These tables were analyzed and 
 | security | security |
 | Date transformation | dim_table |
 | DAX measures | _measures |
+
+## Learning Reference
+
+This project was completed as a hands-on learning exercise based on the following tutorial by **Data with Bara**:
+
+📺 [Data Modeling in Power BI – Data with Bara](https://youtu.be/0A2k62YEbfI?si=9j86TowXATm12POo)
+
+The tutorial helped me understand the Power BI interface, data modeling workflow, Power Query transformations, Fact and Dimension tables, and Star Schema design.
+
+The implementation, data transformations, troubleshooting, and final model were completed as part of my own learning process.
